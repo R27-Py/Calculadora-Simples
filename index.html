@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Calculadora</title>
+    </head>
+    <body>
+
+        <main class="principal">
+
+            <h3>Calculadora</h3>
+            <div class="box">
+                <label for="#">Digite o primeiro numero</label>
+                <input type="text" id="n1">
+            </div>
+
+            <div class="box">
+                <label for="#">Digite o segundo numero</label>
+                <input type="text"id="n2">
+            </div>
+
+            <div class="botoes">
+                <button onclick="adicao()">+</button>
+            
+            
+                <button onclick="subtr()">-</button>
+            
+            
+                <button onclick="multi()">x</button>
+                <button onclick="divisao()">÷</button>
+            </div>
+
+            <div class="result">
+                <p>Resultado<span> </span></p>
+            </div>
+
+            <div class="bot-lim">
+                <a href="index.html">Limpar</a>
+            </div>
+
+            <footer>
+                <p>© 2022 Powered by Renato Reis. All rights reserved.</p>
+            </footer>
+
+        </main>
+
+        
+
+        <script src="functions.js"></script>
+    </body>
+</html>
